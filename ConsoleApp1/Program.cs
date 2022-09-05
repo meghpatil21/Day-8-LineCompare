@@ -23,6 +23,30 @@ namespace ConsoleApp1
                 case 3:
                     Compare2Method.CompareLength();
                     break;
+                case 4:
+                    double l1, l2;
+                    Oops oops=new Oops();
+                    Console.WriteLine("Enter x coordinate of 1st point");
+                    oops.OneCo = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Enter y coordinate of 1st point");
+                    oops.ThirdCo=Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Enter x coordinate of 2nd point");
+                    oops.TwoCo=Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Enter y coordinate of 2nd point");
+                    oops.FourthCo = Convert.ToDouble(Console.ReadLine());
+                    oops.CalculationX = 0;
+                    oops.CalculateCalculationY = 0;
+                    oops.LengthLine = 0;
+                    
+                    Console.WriteLine("length of 1st line is "+oops.LengthLine);
+                    Console.WriteLine();
+                    oops.LengthLine2();
+                    
+
+                    
+
+
+                    break;
                 default:
                     Console.WriteLine("Invalid choice");
                     break;
