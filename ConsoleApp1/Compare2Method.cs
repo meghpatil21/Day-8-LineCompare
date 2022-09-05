@@ -48,7 +48,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine();
             Console.WriteLine(length1.CompareTo(length2));
-
+            Console.WriteLine();
             //Console.WriteLine("Two lines are equal?\n" + length1.Equals(length2));
         }
     }
